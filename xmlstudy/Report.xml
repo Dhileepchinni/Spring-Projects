@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TranslationReport><![CDATA[[Map Name: EDI_X12.856.4010_DCM_1 Version: 2/1/22 10:43 AM
+
+Translation Report
+==================
+Contains errors ? true
+Contains warnings ? false
+There are 13 entries in the report
+Report Entry:
+       Section: HEADER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 20 Translation Object Name
+       Info:
+              20: Translation Object Name
+              EDI_X12.856.4010_DCM_1
+Report Entry:
+       Section: HEADER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 12 Start Time
+       Info:
+              12: Start Time
+              Tue Feb 01 10:43:37 CST 2022
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 112 Data Too Long
+       Info:
+              10002: Block Count
+              5
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              DTM
+              10016: Block Signature ID Tag
+              DTM
+              10004: Field Name
+              0373:2
+              10009: Field Number
+              2
+              10005: Field Data
+              202111044
+              105: Element Position
+              2
+              106: Subelement Position
+              -1
+              105: Element Position
+              2
+              106: Subelement Position
+              -1
+              10019: Location Index
+              01:01
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 300 Mandatory Block Missing
+       Info:
+              10016: Block Signature ID Tag
+              HL
+              10003: Block Name
+              HL
+              10002: Block Count
+              7
+              10017: Map Iteration Count
+              1
+              10010: Instance
+              01:01
+              10019: Location Index
+              01:01
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 130 Conditional Relationship Error
+       Info:
+              10002: Block Count
+              11
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              REF
+              10016: Block Signature ID Tag
+              REF
+              10004: Field Name
+              0127
+              10009: Field Number
+              2
+              105: Element Position
+              2
+              106: Subelement Position
+              -1
+              105: Element Position
+              2
+              106: Subelement Position
+              -1
+              10019: Location Index
+              01:01:03
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 100 Mandatory Data Missing
+       Info:
+              10002: Block Count
+              12
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              REF
+              10016: Block Signature ID Tag
+              REF
+              10004: Field Name
+              0128
+              10009: Field Number
+              1
+              105: Element Position
+              1
+              106: Subelement Position
+              -1
+              105: Element Position
+              1
+              106: Subelement Position
+              -1
+              10019: Location Index
+              01:01:04
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 100 Mandatory Data Missing
+       Info:
+              10003: Block Name
+              SN1
+              10016: Block Signature ID Tag
+              SN1
+              10002: Block Count
+              21
+              10017: Map Iteration Count
+              1
+              10004: Field Name
+              0355
+              10009: Field Number
+              3
+              10005: Field Data
+              Ch
+              10018: Additional Information
+              UOM conversion in SN1 segment
+              10019: Location Index
+              01:04
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 130 Conditional Relationship Error
+       Info:
+              10002: Block Count
+              22
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              REF
+              10016: Block Signature ID Tag
+              REF
+              10004: Field Name
+              0127
+              10009: Field Number
+              2
+              105: Element Position
+              2
+              106: Subelement Position
+              -1
+              105: Element Position
+              2
+              106: Subelement Position
+              -1
+              10019: Location Index
+              01:04:01
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 100 Mandatory Data Missing
+       Info:
+              10002: Block Count
+              25
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              CTT
+              10016: Block Signature ID Tag
+              CTT
+              10004: Field Name
+              0354
+              10009: Field Number
+              1
+              105: Element Position
+              1
+              106: Subelement Position
+              -1
+              105: Element Position
+              1
+              106: Subelement Position
+              -1
+              10019: Location Index
+              01
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 100 Mandatory Data Missing
+       Info:
+              10004: Field Name
+              FIELD1=799241574WGC FIELD2=156471773 FIELD3=20211104 FIELD4=224 FIELD5=0002 FIELD6=Y310499394kl
+              10018: Additional Information
+              Duplicate found
+              10019: Location Index
+              01
+Report Entry:
+       Section: OUTPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 112 Data Too Long
+       Info:
+              10002: Block Count
+              51
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              _pcd_date:10
+              10016: Block Signature ID Tag
+              date
+              10004: Field Name
+              date:10
+              10009: Field Number
+              1
+              10005: Field Data
+              202111044
+              10019: Location Index
+              01:01
+Report Entry:
+       Section: TRAILER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 13 End Time
+       Info:
+              13: End Time
+              Tue Feb 01 10:43:37 CST 2022
+Report Entry:
+       Section: TRAILER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 19 Execution Time (ms)
+       Info:
+              19: Execution Time (ms)
+              23
+]]></TranslationReport>

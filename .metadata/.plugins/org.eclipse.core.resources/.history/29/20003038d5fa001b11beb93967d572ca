@@ -1,0 +1,17 @@
+package com.example.project.barbie;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ArithmaticController {
+	@Autowired ArithmaticService zillzing;
+	@PostMapping("/add")
+	Public int add1(Arithmatic zing) {
+		return zillzing.addition(zing);
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Users.java&apos; to &apos;bonuses-details/src/main/java/com.examplẹ.project.details&apos;&#x0D;&#x0A;- Original project: &apos;databaseservice&apos;&#x0D;&#x0A;- Destination element: &apos;bonuses-details/src/main/java/com.examplẹ.project.details&apos;&#x0D;&#x0A;- Original element: &apos;com.example.project.data.Users.java&apos;" description="Copy compilation unit" destination="=bonuses-details/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.examplẹ.project.details" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.project.data{Users.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1644079123757" units="1" version="1.0"/>
+</session>

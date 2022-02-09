@@ -1,0 +1,22 @@
+package com.example.project.details;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Salary {
+
+	 private int userid;
+	 private String role;
+	 private int salary;
+	 private String body;
+	 
+	 public Salary(int userid, String role, int salary, String body) {
+			super();
+			this.userid = userid;
+			this.role = role;
+			this.salary = salary;
+			this.body = body;
+		}
+}

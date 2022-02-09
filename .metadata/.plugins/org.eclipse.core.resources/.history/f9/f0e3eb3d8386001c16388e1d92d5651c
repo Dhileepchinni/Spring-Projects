@@ -1,0 +1,19 @@
+package com.examplẹ.project.details;
+
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SalaryController {
+
+	@GetMapping("/users")
+	public String getPostByUser()
+	{
+		//return new Salary(1,"Programmer",26199,"successfull");
+		 return "done ";
+	}
+}

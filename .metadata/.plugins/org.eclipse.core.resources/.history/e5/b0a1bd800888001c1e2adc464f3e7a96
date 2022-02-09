@@ -1,0 +1,4 @@
+
+management.endpoints.web.exposure.include=*
+management.endpoints.web.base-path=/
+server.port=8082

@@ -1,0 +1,15 @@
+package com.example.project.barbie;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ArithmaticService {
+
+	public int addition (Arithmatic zill) {
+		return zill.getMath1()+zill.getMath2() ;
+		
+	}
+	
+
+}

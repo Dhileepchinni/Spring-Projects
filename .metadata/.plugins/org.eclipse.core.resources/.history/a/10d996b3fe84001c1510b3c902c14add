@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportentry>
+    <reportentry Section="INPUT" >
+        <Severity value= "ERROR"/>
+        <Code value="112 Data Too Long"/>
+        <BlockCount value="5"/>
+        <BlockName value="DTM"/>
+        <ElementPosition value="2"/>
+        <FieldData value="202111044"/>
+    </reportentry>
+    <reportentry Section="INPUT" >
+        <Severity value= "ERROR"/>
+        <Code value="300 Mandatory Block Missing"/>
+        <BlockCount value="7"/>
+        <BlockName value="HL"/>
+    </reportentry>
+    <reportentry Section="INPUT" >
+        <Severity value= "ERROR"/>
+        <Code value="130 Conditional Relationship Error"/>
+        <BlockCount value="11"/>
+        <BlockName value="REF"/>
+        <ElementPosition value="2"/>
+    </reportentry>
+    <reportentry Section="INPUT" >
+        <Severity value= "ERROR"/>
+        <Code value="100 Mandatory Data Missing"/>
+        <BlockCount value="12"/>
+        <BlockName value="REF"/>
+        <ElementPosition value="1"/>
+    </reportentry>
+</reportentry>
